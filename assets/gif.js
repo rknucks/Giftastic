@@ -109,7 +109,7 @@ function renderButtons() {
           $(this).attr("data-state", "still");
         }
       
-      })
+      });
       // calling our show the gif function
       $(document).on("click", ".football", showTeam);
     });
